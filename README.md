@@ -37,3 +37,5 @@ ___________________________________________________________
 1. Za przyzwoleniem prowadzącego wykorzystałam WPF zamiast WinForms, aby sobie nieco "podnieść poprzeczkę", jeśli można to tym nazwać.
 2. Na dodatkowe punkty należało zaimplementować wysyłanie automatycznych maili.
 3. Chcąc zwiększyć bezpieczeństwo programu do zakodowania haseł przechowywanych w bazie danych wykorzystałam szyfr kryptograficzny.
+4. W głównym folderze (Login) znajduje się podfolder o nazwie "forExamples_dbDump", zawierający inserty do baz.
+   Login i hasło administratora: admin2@
