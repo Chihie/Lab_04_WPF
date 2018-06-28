@@ -1,0 +1,40 @@
+﻿<Window ResizeMode="NoResize" x:Class="Login.PaneUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="User's Pane" Height="390" Width="600">
+    <Grid Background="#FFF2E8">
+        
+        <Button Click="BtnSign_OnClick" Width="70" Height="25" 
+                Foreground="#CFBBB6" Background="#432D27" Content="Sign up" FontFamily="Trebuchet MS"
+                HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,300,0,0" />
+             
+        <TextBlock Text="User's Pane" FontSize="35" FontFamily="Georgia" Foreground="#3D2521"
+                   HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,50,0,0"/>
+        
+        <ComboBox Name = "ComboBoxEventName" SelectionChanged="ComboBoxEventName_OnSelectionChanged" 
+                  Width="100" Height="25" Foreground="#CFBBB6" Background="#432D27" 
+                  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,140,0,0"/>
+        
+        <TextBlock Name = "TextBlockAgenda" Text="" Width="200" Height="255" TextWrapping="Wrap" Foreground="#3D2521"
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="320,140,0,0" />
+        <TextBlock Name = "TextBlockDate" Text="" Width="120" Height="25" Foreground="#3D2521" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,173,0,0" />
+        
+        <ComboBox Name = "ComboBoxAttendantType" Width="100" Height="25" Foreground="#CFBBB6" Background="#432D27" 
+                  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,200,0,0" />
+        <ComboBox Name = "ComboBoxCateringType" Width="100" Height="25" Foreground="#CFBBB6" Background="#432D27" 
+                  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,230,0,0" />
+             
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,140,0,0" 
+               Content="Name" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#3D2521" />
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,170,0,0" 
+               Content="Date" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#3D2521" />
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,200,0,0" 
+               Content="Attendant type" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#3D2521" />
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,230,0,0" 
+               Content="Catering type" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#3D2521" />
+    </Grid>
+</Window>

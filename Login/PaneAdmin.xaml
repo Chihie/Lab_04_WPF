@@ -1,0 +1,121 @@
+﻿<Window ResizeMode="NoResize" x:Class="Login.PaneAdmin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Admin's Pane" Height="410" Width="600">
+    <Grid Background="#3B2723">
+              
+        <TabControl Background="#FFF2E8">
+                  <TabItem Background="#3D2521">
+                            <TabItem.Header>
+                                      <StackPanel Orientation="Horizontal" Background="#3D2521">
+                                                <TextBlock Text="Pending event's entries" 
+                                                           Foreground="#FFF2E8" FontSize="13" FontFamily="Georgia"/>
+                                      </StackPanel>
+                            </TabItem.Header>
+                            <Grid>
+                                      <TextBlock Text="Pending for confirmation" Width="200" Height="25" FontSize="13" 
+                                                 Foreground="#3D2521" FontFamily="Georgia" HorizontalAlignment="Center" 
+                                                 VerticalAlignment="Top" Margin="50,80,0,0" />
+                                      <TextBlock Text="Select checkbox to approve," 
+                                                 Width="350" Height="55" Foreground="#3D2521" HorizontalAlignment="Center" 
+                                                 VerticalAlignment="Top" Margin="200,100,0,0" />
+                                      <TextBlock Text="leaving it empty will result rejection." 
+                                                 Width="350" Height="55" Foreground="#3D2521" HorizontalAlignment="Center" 
+                                                 VerticalAlignment="Top" Margin="160,115,0,0" />
+                                      
+                                      <DataGrid x:Name = "DataGridPending" Width="345" Height="120" Foreground="#3D2521"
+                                                HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,135,0,0" 
+                                                Background="#FFF2E8" AutoGenerateColumns="TRUE" BorderThickness="0" 
+                                                BorderBrush="#FFF2E8" ItemsSource="{Binding Rows}" Grid.Row="0" />
+                                      
+                                      <TextBlock Text="Show all? " 
+                                                 Width="200" Height="25" Foreground="#3D2521" HorizontalAlignment="Left" 
+                                                 VerticalAlignment="Top" Margin="255,260,0,0" />
+                                      <CheckBox Name="CheckBoxShowAll" Foreground="#CFBBB6" Background="#432D27" 
+                                                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="310,263,0,0" 
+                                                IsChecked="False" Checked="CheckBoxShowAll_OnChecked"
+                                                Unchecked="CheckBoxShowAll_OnUnchecked"  />
+                                      <Button Width="70" Height="25" Foreground="#CFBBB6" Background="#432D27" 
+                                              Content="Update" FontFamily="Trebuchet MS" HorizontalAlignment="Center" 
+                                              VerticalAlignment="Top" Margin="0,280,0,0" Click="BtnPending_OnClick" />
+                            </Grid>
+                                      
+                  </TabItem>
+                  <TabItem Background="#3D2521">
+                            <TabItem.Header>
+                                      <StackPanel Orientation="Horizontal" Background="#3D2521">
+                                                <TextBlock Text="Administer users" 
+                                                           Foreground="#FFF2E8" FontSize="13" FontFamily="Georgia"/>
+                                      </StackPanel>
+                            </TabItem.Header>
+                            <Grid>
+                                      <ComboBox Name = "ComboBoxChooseAction" 
+                                                SelectionChanged="ComboBoxChooseAction_OnSelectionChanged"
+                                                Width="100" Height="25" Foreground="#CFBBB6" Background="#432D27" 
+                                                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,110,0,0"/>
+                                      <ComboBox Name = "ComboBoxChooseUser" 
+                                                Width="100" Height="25" Foreground="#CFBBB6" Background="#432D27" 
+                                                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,140,0,0"/>
+                  
+                                      <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,110,0,0" 
+                                             Content="Choose action" FontFamily="Trebuchet MS" FontWeight="Bold" 
+                                             Foreground="#3D2521" />
+                                      <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,140,0,0" 
+                                             Content="Choose user" FontFamily="Trebuchet MS" FontWeight="Bold" 
+                                             Foreground="#3D2521" />
+                                      
+                                      <Button Width="70" Height="25" Click="BtnSaveChange_OnClick" 
+                                              Foreground="#CFBBB6" Background="#432D27" Content="Confirm" 
+                                              FontFamily="Trebuchet MS" HorizontalAlignment="Center" 
+                                              VerticalAlignment="Top" Margin="0,280,0,0" />
+                                      
+                                      <TextBlock Text="Add new user" Width="200" Height="25" FontSize="13" 
+                                                 Foreground="#3D2521" FontFamily="Georgia" HorizontalAlignment="Center" 
+                                                 VerticalAlignment="Top" Margin="370,80,0,0" />
+                                      
+                                      <TextBox Name="TxtBoxName" Text="" Width="100" Height="25" Foreground="#CFBBB6" 
+                                               Background="#432D27" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                                               Margin="404,110,0,0" />
+                                      <TextBox Name="TxtBoxSurname" Text="" Width="100" Height="25" Foreground="#CFBBB6" 
+                                               Background="#432D27" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                                               Margin="404,140,0,0" />
+                                      <TextBox Name="TxtBoxLogin" Text="" Width="100" Height="25" Foreground="#CFBBB6" 
+                                               Background="#432D27" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                                               Margin="404,170,0,0" />
+                                      <TextBox Name="TxtBoxEmail" Text="" Width="100" Height="25" Foreground="#CFBBB6" 
+                                               Background="#432D27" HorizontalAlignment="Left" VerticalAlignment="Top" 
+                                               Margin="404,200,0,0" />
+                                      
+                                      <ComboBox Name = "ComboBoxChoosePrivelages" Width="100" Height="25" 
+                                                Foreground="#CFBBB6" Background="#432D27" HorizontalAlignment="Left" 
+                                                VerticalAlignment="Top" Margin="404,230,0,0" SelectedIndex="0" />
+             
+                                      <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="330,110,0,0" 
+                                             Content="Name" FontFamily="Trebuchet MS" FontWeight="Bold" 
+                                             Foreground="#3D2521" />
+                                      <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="330,140,0,0" 
+                                             Content="Surname" FontFamily="Trebuchet MS" FontWeight="Bold" 
+                                             Foreground="#3D2521" />
+                                      <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="330,170,0,0" 
+                                             Content="Login" FontFamily="Trebuchet MS" FontWeight="Bold" 
+                                             Foreground="#3D2521" />
+                                      <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="330,200,0,0" 
+                                             Content="Email" FontFamily="Trebuchet MS" FontWeight="Bold" 
+                                             Foreground="#3D2521" />
+                                      <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="330,230,0,0" 
+                                             Content="Privelages" FontFamily="Trebuchet MS" FontWeight="Bold" 
+                                             Foreground="#3D2521" />
+                            </Grid>
+                  </TabItem>
+        </TabControl>
+        
+        <TextBlock Text="Admin's Pane" FontSize="35" FontFamily="Georgia" Foreground="#3D2521"
+                   HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,50,0,0"/>
+        
+
+        
+    </Grid>
+</Window>

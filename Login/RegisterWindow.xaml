@@ -1,0 +1,47 @@
+﻿<Window ResizeMode="NoResize" x:Class="Login.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Register" Height="420" Width="300">
+    <Grid Background="#FFF2E8">
+        
+        <Button Click="BtnRegisterTrue_OnClick" Width="70" Height="25" 
+                Foreground="#CFBBB6" Background="#432D27" Content="Register" FontFamily="Trebuchet MS"
+                HorizontalAlignment="Left" VerticalAlignment="Top" Margin="110,338,0,0" />
+             
+        <TextBlock Text="Register" FontSize="35" FontFamily="Georgia" Foreground="#3D2521"
+                   HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,50,0,0"/>
+             
+        <TextBox Name="TxtBoxName" Text="" Width="100" Height="25" Foreground="#CFBBB6" Background="#432D27" 
+                 HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,140,0,0" />
+        <TextBox Name="TxtBoxSurname" Text="" Width="100" Height="25" Foreground="#CFBBB6" Background="#432D27" 
+                 HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,170,0,0" />
+        <TextBox Name="TxtBoxLogin" Text="" Width="100" Height="25" Foreground="#CFBBB6" Background="#432D27" 
+                 HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,200,0,0" />
+        <PasswordBox Name="TxtBoxPassword" Width="100" Height="25" Foreground="#CFBBB6" Background="#432D27" 
+                     HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,230,0,0" PasswordChar="*" 
+                     ToolTip="Password have to be 7..20 chars long and contain at least one nonalphanumerical char"/>
+        <PasswordBox Name="TxtBoxPasswordRepeat" Width="100" Height="25" Foreground="#CFBBB6" Background="#432D27" 
+                     HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,260,0,0" PasswordChar="*" 
+                     ToolTip="Password have to be 7..20 chars long and contain at least one nonalphanumerical char"/>
+        <TextBox Name="TxtBoxEmail" Text="" Width="100" Height="25" Foreground="#CFBBB6" Background="#432D27" 
+                 HorizontalAlignment="Left" VerticalAlignment="Top" Margin="154,290,0,0" 
+                 ToolTip="Email will be checked and you will receive one after registration"/>
+             
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,140,0,0" 
+               Content="Name" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#3D2521" />
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,170,0,0" 
+               Content="Surname" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#3D2521" />
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,200,0,0" 
+               Content="Login" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#3D2521" />
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,230,0,0" 
+               Content="Password" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#3D2521" />
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,260,0,0" 
+               Content="Password repeat" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#3D2521" />
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50,290,0,0" 
+               Content="Email" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="#3D2521" />
+        
+    </Grid>
+</Window>

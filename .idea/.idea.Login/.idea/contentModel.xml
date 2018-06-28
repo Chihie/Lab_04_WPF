@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\kszam\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Login.-1761216544.00" t="ExcludeRecursive" />
+    <e p="Y:\Programy\C#\Login" t="IncludeFlat">
+      <e p="Login" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="App.xaml" t="Include" />
+        <e p="App.xaml.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Connector.cs" t="Include" />
+        <e p="Cryptography.cs" t="Include" />
+        <e p="Executioner.cs" t="Include" />
+        <e p="GenerateEmail.cs" t="Include" />
+        <e p="img" t="Include">
+          <e p="wow.jpg" t="Include" />
+          <e p="wow1.jpg" t="Include" />
+        </e>
+        <e p="Login.csproj" t="IncludeRecursive" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PaneAdmin.xaml" t="Include" />
+        <e p="PaneAdmin.xaml.cs" t="Include" />
+        <e p="PaneUser.xaml" t="Include" />
+        <e p="PaneUser.xaml.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="RegisterWindow.xaml" t="Include" />
+        <e p="RegisterWindow.xaml.cs" t="Include" />
+      </e>
+      <e p="Login.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

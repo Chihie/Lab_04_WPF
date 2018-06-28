@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="831bef0c-fd45-4c5a-ba2b-761aa47e1774" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Login/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Login/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Login/.idea/dataSources/2afb3d4b-3552-4db7-878f-cdd7645d0085.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Login/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Login/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Login/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Login/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/App.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/App.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/Connector.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/Cryptography.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/Executioner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/GenerateEmail.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/Login.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MainWindow.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MainWindow.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MySQLConnector/CHANGES" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MySQLConnector/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MySQLConnector/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MySQLConnector/Release Notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MySQLConnector/mysql-connector-net-8.0.11-noinstall.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MySQLConnector/v4.5.2/Google.Protobuf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MySQLConnector/v4.5.2/MySQL.Data.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MySQLConnector/v4.5.2/MySQL.Data.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MySQLConnector/v4.5.2/MySQL.Data.EntityFrameworkCore.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MySQLConnector/v4.5.2/MySql.Data.EntityFramework.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MySQLConnector/v4.5.2/MySql.Data.EntityFramework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MySQLConnector/v4.5.2/MySql.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MySQLConnector/v4.5.2/MySql.Data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MySQLConnector/v4.5.2/MySql.Web.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/MySQLConnector/v4.5.2/MySql.Web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/PaneAdmin.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/PaneAdmin.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/PaneUser.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/PaneUser.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/Properties/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/Properties/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/RegisterWindow.xaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/RegisterWindow.xaml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/bin/Debug/Google.Protobuf.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/bin/Debug/Login.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/bin/Debug/Login.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/bin/Debug/Login.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/bin/Debug/MySql.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/bin/Debug/MySql.Data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/forExamples_dbDump/projectdb_event.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/forExamples_dbDump/projectdb_login.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/forExamples_dbDump/projectdb_participant.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/img/wow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/img/wow1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/App.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/App.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/Login.Properties.Resources.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/Login.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/Login.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/Login.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/Login.csproj.GenerateResource.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/Login.csprojResolveAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/Login.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/Login.g.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/Login.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/Login_Content.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/Login_Content.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/Login_MarkupCompile.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/MainWindow.baml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/MainWindow.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/PaneAdmin.baml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/PaneAdmin.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/PaneAdmin.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/PaneUser.baml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/PaneUser.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/PaneUser.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/Register.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/RegisterWindow.baml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/RegisterWindow.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/RegisterWindow.g.i.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webappdb_report.sql" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="projectDB@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="projectDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="projectDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="projectdb: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="projectDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="projectdb: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="login: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="projectDB@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="projectdb: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="participant: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PaneUser.xaml.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Login/PaneUser.xaml.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+              <folding>
+                <marker date="1529960766405" expanded="false" signature="6:104" ph="..." />
+                <marker date="1529960766405" expanded="true" signature="122:2482" ph="{...}" />
+                <marker date="1529960766405" expanded="true" signature="224:2480" ph="{...}" />
+                <marker date="1529960766405" expanded="true" signature="568:733" ph="{...}" />
+                <marker date="1529960766405" expanded="true" signature="919:1545" ph="{...}" />
+                <marker date="1529960766405" expanded="true" signature="1563:1737" ph="/* TODO: Consider clearing data inside boxes (would it be a good thing having in mind that one participant ... */" />
+                <marker date="1529960766405" expanded="true" signature="2077:2474" ph="{...}" />
+                <marker date="1529960766405" expanded="true" signature="2088:2206" ph="/* if (e.AddedItems != null &amp;&amp; e.AddedItems.Count &gt; 0) ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Executioner.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Login/Executioner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+              <folding>
+                <marker date="1530114994380" expanded="false" signature="6:240" ph="..." />
+                <marker date="1530114994380" expanded="true" signature="257:10807" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="264:637" ph="/* TODO: Handle db connections in a better, more optimized way, e.g. create separate method for connecting ... */" />
+                <marker date="1530114994380" expanded="true" signature="666:10805" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="954:1779" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="1049:1691" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="1368:1476" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="1541:1677" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="1840:2428" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="1917:2326" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="2487:2963" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="2551:2794" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="3021:3407" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="3048:3345" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="3495:3993" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="3522:3931" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="4045:4539" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="4104:4449" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="4589:4971" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="4647:4883" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="5006:5476" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="5064:5387" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="5573:6968" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="5600:6906" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="6286:6892" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="7029:7558" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="7056:7496" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="7635:8812" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="7662:8750" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="8879:9347" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="8906:9285" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="9413:9769" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="9440:9707" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="9815:10118" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="9842:10057" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="10186:10799" ph="{...}" />
+                <marker date="1530114994380" expanded="true" signature="10262:10697" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_login</find>
+      <find>ChooseUs</find>
+      <find>ChooseUser</find>
+      <find>ges.Items</find>
+      <find>pass</find>
+      <find>focus</find>
+      <find>cryp</find>
+      <find>exec</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Login/PaneUser.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Login/GenerateEmail.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Login/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Login/Executioner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Login/RegisterWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Login/RegisterWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Login/PaneAdmin.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Login/PaneAdmin.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Login/Cryptography.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Login/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Login/Connector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Login/App.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Login/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Login/PaneUser.xaml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Login/Helper.cs" />
+        <option value="$PROJECT_DIR$/Login/App.config" />
+        <option value="$PROJECT_DIR$/Login/Register.xaml.cs" />
+        <option value="$PROJECT_DIR$/Login/Register.xaml" />
+        <option value="$PROJECT_DIR$/Login/ControllerDB.cs" />
+        <option value="$PROJECT_DIR$/Login/User.cs" />
+        <option value="$PROJECT_DIR$/Login/PaneUser.xaml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2afb3d4b-3552-4db7-878f-cdd7645d0085/console.sql" />
+        <option value="$PROJECT_DIR$/Login/MainWindow.xaml" />
+        <option value="$PROJECT_DIR$/Login/RegisterWindow.xaml" />
+        <option value="$PROJECT_DIR$/Login/PaneAdmin.xaml" />
+        <option value="$PROJECT_DIR$/Login/RegisterWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/Login/Cryptography.cs" />
+        <option value="$PROJECT_DIR$/Login/PaneUser.xaml.cs" />
+        <option value="$PROJECT_DIR$/Login/Connector.cs" />
+        <option value="$PROJECT_DIR$/Login/GenerateEmail.cs" />
+        <option value="$PROJECT_DIR$/Login/PaneAdmin.xaml.cs" />
+        <option value="$PROJECT_DIR$/Login/Executioner.cs" />
+        <option value="$PROJECT_DIR$/Login/MainWindow.xaml.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1060" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Login (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Login (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Login" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="X:/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Login/bin/Debug/Login.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Login/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Login/Login.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.1" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="831bef0c-fd45-4c5a-ba2b-761aa47e1774" name="Default" comment="" />
+      <created>1526313877920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526313877920</updated>
+      <workItem from="1526313880391" duration="2783000" />
+      <workItem from="1526316710670" duration="7767000" />
+      <workItem from="1526373744743" duration="2933000" />
+      <workItem from="1526384149690" duration="4626000" />
+      <workItem from="1526388931920" duration="5628000" />
+      <workItem from="1526395925349" duration="13872000" />
+      <workItem from="1526465956830" duration="75000" />
+      <workItem from="1526744972237" duration="6317000" />
+      <workItem from="1526835757725" duration="14706000" />
+      <workItem from="1526928277279" duration="8411000" />
+      <workItem from="1526964860039" duration="1286000" />
+      <workItem from="1526966189389" duration="11048000" />
+      <workItem from="1527013682654" duration="11476000" />
+      <workItem from="1527155923815" duration="753000" />
+      <workItem from="1527174135023" duration="13607000" />
+      <workItem from="1527237445343" duration="11500000" />
+      <workItem from="1527418592147" duration="26806000" />
+      <workItem from="1527453422317" duration="3855000" />
+      <workItem from="1527499708704" duration="2393000" />
+      <workItem from="1529081252519" duration="5246000" />
+      <workItem from="1529142107868" duration="2057000" />
+      <workItem from="1529232561110" duration="6818000" />
+      <workItem from="1529363640442" duration="1503000" />
+      <workItem from="1529957915603" duration="6232000" />
+      <workItem from="1529964303141" duration="135000" />
+      <workItem from="1529964521314" duration="1311000" />
+      <workItem from="1530114294643" duration="1752000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="174896000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1060" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32855567" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.32995737" />
+      <window_info anchor="bottom" id="XAML Preview" order="16" weight="0.40793827" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29768467" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14285715" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="14" weight="0.31763417" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39911798" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32903227" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32524806" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Login/RegisterWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/RegisterWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2afb3d4b-3552-4db7-878f-cdd7645d0085/schema/projectdb/table/login">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/RegisterWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2afb3d4b-3552-4db7-878f-cdd7645d0085/schema/projectdb/table/login">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/User.cs" />
+    <entry file="file://$PROJECT_DIR$/Login/Connector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/App.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/RegisterWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="77" lean-forward="true" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1978">
+          <caret line="86" column="9" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2afb3d4b-3552-4db7-878f-cdd7645d0085/schema/projectdb/table/login">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/User.cs" />
+    <entry file="file://$PROJECT_DIR$/Login/Connector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/App.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2afb3d4b-3552-4db7-878f-cdd7645d0085/schema/projectdb/table/login">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/User.cs" />
+    <entry file="file://$PROJECT_DIR$/Login/Connector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/App.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/User.cs" />
+    <entry file="file://$PROJECT_DIR$/Login/Connector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/App.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/PaneUser.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2afb3d4b-3552-4db7-878f-cdd7645d0085/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/User.cs" />
+    <entry file="das://2afb3d4b-3552-4db7-878f-cdd7645d0085/schema/projectdb/table/event">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/App.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="6" selection-start-line="2" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/RegisterWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="30" column="91" selection-start-line="30" selection-start-column="91" selection-end-line="30" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/Cryptography.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/Connector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/PaneAdmin.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="91" column="106" selection-start-line="91" selection-start-column="106" selection-end-line="91" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/RegisterWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/GenerateEmail.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="61" column="59" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://2afb3d4b-3552-4db7-878f-cdd7645d0085/schema/projectdb/table/login">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/App.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/App.xaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/Properties/Resources.Designer.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://2afb3d4b-3552-4db7-878f-cdd7645d0085/schema/projectdb/table/participant">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/PaneUser.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
+          <folding>
+            <marker date="1529960766405" expanded="false" signature="6:104" ph="..." />
+            <marker date="1529960766405" expanded="true" signature="122:2482" ph="{...}" />
+            <marker date="1529960766405" expanded="true" signature="224:2480" ph="{...}" />
+            <marker date="1529960766405" expanded="true" signature="568:733" ph="{...}" />
+            <marker date="1529960766405" expanded="true" signature="919:1545" ph="{...}" />
+            <marker date="1529960766405" expanded="true" signature="1563:1737" ph="/* TODO: Consider clearing data inside boxes (would it be a good thing having in mind that one participant ... */" />
+            <marker date="1529960766405" expanded="true" signature="2077:2474" ph="{...}" />
+            <marker date="1529960766405" expanded="true" signature="2088:2206" ph="/* if (e.AddedItems != null &amp;&amp; e.AddedItems.Count &gt; 0) ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/PaneAdmin.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="136" column="9" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
+          <folding>
+            <marker date="1529963681227" expanded="false" signature="6:176" ph="..." />
+            <marker date="1529963681227" expanded="true" signature="194:7408" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="231:7406" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="708:962" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="1041:1418" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="1077:1361" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="1461:1680" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="1735:1906" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="1948:2310" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="2388:5097" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="2492:5054" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="2645:3041" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="3337:3828" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="3439:3798" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="4277:4453" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="5203:6114" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="5269:6104" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="6124:6520" ph="/* TODO: Make this one actually work as intendent: send emails only when combobox state has actually changed ... */" />
+            <marker date="1529963681227" expanded="true" signature="6594:7089" ph="{...}" />
+            <marker date="1529963681227" expanded="true" signature="6685:7079" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/MainWindow.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+          <folding>
+            <marker date="1530115379312" expanded="true" signature="6:35" ph="..." />
+            <marker date="1530115379312" expanded="true" signature="52:2975" ph="{...}" />
+            <marker date="1530115379312" expanded="true" signature="63:153" ph="///     Interaction logic for MainWindow.xaml ... " />
+            <marker date="1530115379312" expanded="true" signature="158:244" ph="/* TODO: Handle logging out ... */" />
+            <marker date="1530115379312" expanded="true" signature="280:2973" ph="{...}" />
+            <marker date="1530115379312" expanded="true" signature="431:616" ph="{...}" />
+            <marker date="1530115379312" expanded="true" signature="695:1790" ph="{...}" />
+            <marker date="1530115379312" expanded="true" signature="739:1564" ph="{...}" />
+            <marker date="1530115379312" expanded="true" signature="761:1482" ph="{...}" />
+            <marker date="1530115379312" expanded="true" signature="854:1238" ph="{...}" />
+            <marker date="1530115379312" expanded="true" signature="1866:2025" ph="{...}" />
+            <marker date="1530115379312" expanded="true" signature="2098:2967" ph="{...}" />
+            <marker date="1530115379312" expanded="true" signature="2121:2295" ph="/* TODO: Make undermentioned, commented line of code work or inspect what's wrong with it ... */" />
+            <marker date="1530115379312" expanded="true" signature="2340:2647" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/MainWindow.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <marker date="1527455078953" expanded="true" signature="0:2964" ph="&lt;&lt;Grid Background=&quot;##FFF2E8&quot;&gt;&#10;        &#10;        &lt;Button Name=&quot;BtnLogin&quot; Click=&quot;BtnLogin_OnClick&quot; Width=&quot;70&quot; Height=&quot;25&quot; Foreground=&quot;##CFBBB6&quot; &#10;                Background=&quot;##432D27&quot; Content=&quot;Login&quot; FontFamily=&quot;Trebuchet MS&quot;&#10;                HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;80,238,0,0&quot; /&gt;&#10;        &lt;Button Click=&quot;BtnRegister_OnClick&quot; Width=&quot;70&quot; Height=&quot;25&quot; Foreground=&quot;##CFBBB6&quot; &#10;                Background=&quot;##432D27&quot; Content=&quot;Register&quot; FontFamily=&quot;Trebuchet MS&quot;&#10;                HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;154,238,0,0&quot; /&gt;&#10;        &#10;        &lt;!-- &lt;Image Source=&quot;Y:\Programy\C##\Login\Login\img\wow1.jpg&quot; Height=&quot;300&quot;  --&gt;&#10;        &lt;!--        VerticalAlignment=&quot;Top&quot; HorizontalAlignment=&quot;Stretch&quot;/&gt; --&gt;&#10;        &#10;        &lt;TextBlock Text=&quot;Login&quot; FontSize=&quot;35&quot; FontFamily=&quot;Georgia&quot; Foreground=&quot;##3D2521&quot; HorizontalAlignment=&quot;Center&quot; &#10;                   VerticalAlignment=&quot;Top&quot; Margin=&quot;0,50,0,0&quot;/&gt;&#10;        &lt;TextBlock Name=&quot;TxtBlockErr&quot; Text=&quot;Invalid login or/and password, blocked.&quot; FontSize=&quot;11&quot; FontFamily=&quot;Georgia&quot; &#10;                   Foreground=&quot;##3D2521&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;20,100,0,0&quot;&#10;                   Visibility=&quot;Hidden&quot; /&gt;&#10;        &#10;        &lt;TextBox Name=&quot;TxtBoxLogin&quot; Text=&quot;&quot; Width=&quot;100&quot; Height=&quot;25&quot; Foreground=&quot;##CFBBB6&quot; Background=&quot;##432D27&quot; &#10;                 HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;134,150,0,0&quot; /&gt;&#10;        &#10;        &lt;PasswordBox Name=&quot;PassBox&quot; Width=&quot;100&quot; Height=&quot;25&quot; Foreground=&quot;##CFBBB6&quot; Background=&quot;##432D27&quot; &#10;                  HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;134,180,0,0&quot;  PasswordChar=&quot;*&quot; /&gt;&#10;        &lt;TextBox Name=&quot;TxtPassBox&quot; Width=&quot;100&quot; Height=&quot;25&quot; Foreground=&quot;##CFBBB6&quot; Background=&quot;##432D27&quot; &#10;                     HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;134,180,0,0&quot; /&gt;&#10;        &lt;CheckBox Name=&quot;CheckBox&quot; Width=&quot;100&quot; Height=&quot;25&quot; Foreground=&quot;##CFBBB6&quot; Background=&quot;##432D27&quot; &#10;                  HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;245,186,0,0&quot; &#10;                  IsChecked=&quot;False&quot; Checked=&quot;CheckBox_Changed&quot; Unchecked=&quot;CheckBox_Changed&quot;/&gt;&#10;        &#10;        &lt;Label HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;60,150,0,0&quot; &#10;               Content=&quot;Login&quot; FontFamily=&quot;Trebuchet MS&quot; FontWeight=&quot;Bold&quot; Foreground=&quot;##3D2521&quot; /&gt;&#10;        &lt;Label HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;60,180,0,0&quot; &#10;               Content=&quot;Password&quot; FontFamily=&quot;Trebuchet MS&quot; FontWeight=&quot;Bold&quot; Foreground=&quot;##3D2521&quot; /&gt;&#10;        &#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1527455078953" expanded="true" signature="419:2954" ph="&lt;&lt;Button Name=&quot;BtnLogin&quot; Click=&quot;BtnLogin_OnClick&quot; Width=&quot;70&quot; Height=&quot;25&quot; Foreground=&quot;##CFBBB6&quot; &#10;                Background=&quot;##432D27&quot; Content=&quot;Login&quot; FontFamily=&quot;Trebuchet MS&quot;&#10;                HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;80,238,0,0&quot; /&gt; &lt;Button Click=&quot;BtnRegister_OnClick&quot; Width=&quot;70&quot; Height=&quot;25&quot; Foreground=&quot;##CFBBB6&quot; &#10;                Background=&quot;##432D27&quot; Content=&quot;Register&quot; FontFamily=&quot;Trebuchet MS&quot;&#10;                HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;154,238,0,0&quot; /&gt; &lt;TextBlock Text=&quot;Login&quot; FontSize=&quot;35&quot; FontFamily=&quot;Georgia&quot; Foreground=&quot;##3D2521&quot; HorizontalAlignment=&quot;Center&quot; &#10;                   VerticalAlignment=&quot;Top&quot; Margin=&quot;0,50,0,0&quot;/&gt; &lt;TextBlock Name=&quot;TxtBlockErr&quot; Text=&quot;Invalid login or/and password, blocked.&quot; FontSize=&quot;11&quot; FontFamily=&quot;Georgia&quot; &#10;                   Foreground=&quot;##3D2521&quot; HorizontalAlignment=&quot;Center&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;20,100,0,0&quot;&#10;                   Visibility=&quot;Hidden&quot; /&gt; &lt;TextBox Name=&quot;TxtBoxLogin&quot; Text=&quot;&quot; Width=&quot;100&quot; Height=&quot;25&quot; Foreground=&quot;##CFBBB6&quot; Background=&quot;##432D27&quot; &#10;                 HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;134,150,0,0&quot; /&gt; &lt;PasswordBox Name=&quot;PassBox&quot; Width=&quot;100&quot; Height=&quot;25&quot; Foreground=&quot;##CFBBB6&quot; Background=&quot;##432D27&quot; &#10;                  HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;134,180,0,0&quot;  PasswordChar=&quot;*&quot; /&gt; &lt;TextBox Name=&quot;TxtPassBox&quot; Width=&quot;100&quot; Height=&quot;25&quot; Foreground=&quot;##CFBBB6&quot; Background=&quot;##432D27&quot; &#10;                     HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;134,180,0,0&quot; /&gt; &lt;CheckBox Name=&quot;CheckBox&quot; Width=&quot;100&quot; Height=&quot;25&quot; Foreground=&quot;##CFBBB6&quot; Background=&quot;##432D27&quot; &#10;                  HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;245,186,0,0&quot; &#10;                  IsChecked=&quot;False&quot; Checked=&quot;CheckBox_Changed&quot; Unchecked=&quot;CheckBox_Changed&quot;/&gt; &lt;Label HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;60,150,0,0&quot; &#10;               Content=&quot;Login&quot; FontFamily=&quot;Trebuchet MS&quot; FontWeight=&quot;Bold&quot; Foreground=&quot;##3D2521&quot; /&gt; &lt;Label HorizontalAlignment=&quot;Left&quot; VerticalAlignment=&quot;Top&quot; Margin=&quot;60,180,0,0&quot; &#10;               Content=&quot;Password&quot; FontFamily=&quot;Trebuchet MS&quot; FontWeight=&quot;Bold&quot; Foreground=&quot;##3D2521&quot; /&gt;.../&gt;" />
+            <marker date="1527455078953" expanded="true" signature="464:726" ph="&lt;.../&gt;" />
+            <marker date="1527455078953" expanded="true" signature="735:988" ph="&lt;.../&gt;" />
+            <marker date="1527455078953" expanded="true" signature="1182:1354" ph="&lt;.../&gt;" />
+            <marker date="1527455078953" expanded="true" signature="1363:1630" ph="&lt;.../&gt;" />
+            <marker date="1527455078953" expanded="true" signature="1648:1842" ph="&lt;.../&gt;" />
+            <marker date="1527455078953" expanded="true" signature="1860:2065" ph="&lt;.../&gt;" />
+            <marker date="1527455078953" expanded="true" signature="2074:2263" ph="&lt;.../&gt;" />
+            <marker date="1527455078953" expanded="true" signature="2272:2549" ph="&lt;.../&gt;" />
+            <marker date="1527455078953" expanded="true" signature="2567:2744" ph="&lt;.../&gt;" />
+            <marker date="1527455078953" expanded="true" signature="2753:2933" ph="&lt;.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Login/Executioner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+          <folding>
+            <marker date="1530114994380" expanded="false" signature="6:240" ph="..." />
+            <marker date="1530114994380" expanded="true" signature="257:10807" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="264:637" ph="/* TODO: Handle db connections in a better, more optimized way, e.g. create separate method for connecting ... */" />
+            <marker date="1530114994380" expanded="true" signature="666:10805" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="954:1779" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="1049:1691" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="1368:1476" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="1541:1677" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="1840:2428" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="1917:2326" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="2487:2963" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="2551:2794" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="3021:3407" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="3048:3345" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="3495:3993" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="3522:3931" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="4045:4539" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="4104:4449" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="4589:4971" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="4647:4883" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="5006:5476" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="5064:5387" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="5573:6968" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="5600:6906" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="6286:6892" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="7029:7558" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="7056:7496" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="7635:8812" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="7662:8750" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="8879:9347" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="8906:9285" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="9413:9769" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="9440:9707" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="9815:10118" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="9842:10057" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="10186:10799" ph="{...}" />
+            <marker date="1530114994380" expanded="true" signature="10262:10697" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
